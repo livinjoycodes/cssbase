@@ -1,0 +1,11 @@
+:root {
+--los-joydbg:#1a2128; /*|__________poszt színe__________*/
+--los-joylbg:#212b36;
+--los-joylbg2:#0e393d;/*|__________extrán világos szín, pl Vance __________*/
+--los-joydborder:#1a2128;
+--los-joylborder:#212b36;
+--los-joycf: #364759;/*|__________ világos __________*/
+--los-joycff: #1b252c; /*|__________ sötét __________*/
+
+
+}
