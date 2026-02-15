@@ -1,0 +1,22 @@
+:root {
+--livin-joydbg:#03181a;
+--livin-joylbg:#0b2a2c; /*|__________poszt színe__________*/
+--livin-joylbg2:#0e393d;/*|__________extrán világos szín, pl Vance __________*/
+--livin-joydborder:#081f21;
+--livin-joylborder:#0e393d;
+--livin-joyc1h1:#b87373; /*|__________hullám1 1színe__________*/
+--livin-joxc1h2:#bfa07a; /*|__________hullám1 2színe__________*/
+--livin-kiecolor1:#2E8B57; /*|__________Kie seagreen__________*/
+--livin-kiecolor2:#448899; /*|__________Kie blue __________*/
+--livin-kiecolor3:#ebb59d; /*|__________Kie zöld seagreen__________*/
+--livin-kiecolor4:#4cc37e; /*|__________Lan & Kie szín__________*/
+--livin-jhelixcolor:#5cffa0; /*|__________alá betűszín__________*/
+--livin-colorful1:#5bffa0; /*|__________színátmenet, zöld__________*/
+--livin-colorful2:#ff7f62; /*|__________színátmenet, narancsos__________*/
+--livin-c1:#397d56; /*|__________zöld, notes-names__________*/
+--livin-c2:#2E8B57; /*|__________zöld, notes-quotes__________*/
+--livin-colorful3:#7b6fa8; /*|__________színátmenet, lila - chapter__________*/
+--livin-colorful4:#BDAF99; /*|__________színátmenet, beige - chapter__________*/
+--livin-colorful5:#217178; /*|__________színátmenet, kékes - csillagos jan __________*/
+--livin-colorful6:#683726; /*|__________színátmenet, brownred - csillagos jan__________*/
+}
