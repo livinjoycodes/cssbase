@@ -1,9 +1,10 @@
 :root {
---livin-joydbg:#03181a;
---livin-joylbg:#0b2a2c; /*|__________poszt színe__________*/
+--livin-joydbg:#1a2128;
+--livin-joylbg:#212b36; /*|__________poszt színe__________*/
 --livin-joylbg2:#0e393d;/*|__________extrán világos szín, pl Vance __________*/
---livin-joydborder:#081f21;
---livin-joylborder:#0e393d;
+--livin-joydborder:#1a2128;
+--livin-joylborder:#212b36;
+  
 --livin-joyc1h1:#b87373; /*|__________hullám1 1színe__________*/
 --livin-joxc1h2:#bfa07a; /*|__________hullám1 2színe__________*/
 --livin-kiecolor1:#2E8B57; /*|__________Kie seagreen__________*/
