@@ -1,7 +1,7 @@
 .instabg2 {background: rgb(0 0 0 /.4); display: flex; justify-content: center; width:435px;font-family: Arial;} 
 .state { display: none; } 
 .instaframe { width: 420px; height:auto;overflow: hidden;position: relative; box-shadow: white;}
-.instatrack2 {width:350%;transition: 0.45s ease;display: flex;}.instatrack2 img {width: 402px;margin: 5px 5px 0px 5px;border-radius: 5px;object-fit: cover;border: 2px solid #262626;box-shadow: 0 0 0 1px rgba(255,255,255,0.03);} 
+.instatrack2 {width:350%;transition: 0.45s ease;display: flex;}.instatrack2 img {width: 406px;margin: 5px 5px 0px 5px;border-radius: 5px;object-fit: cover;border: 2px solid #262626;box-shadow: 0 0 0 1px rgba(255,255,255,0.03);} 
 /*SLIDE LOGIKA */ #p1_s1:checked ~ .instaframe .instatrack2 { transform: translateX(0); } #p1_s2:checked ~ .instaframe .instatrack2 { transform: translateX(-420px); } #p1_s3:checked ~ .instaframe .instatrack2 { transform: translateX(-840px); } 
 /* nyilak */ .arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; background: rgba(0,0,0,0.5); color: white; border-radius: 50%; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 20px; } 
 /* A → B */ #p1_s1:checked ~ .instaframe .to2 { display: flex; } /* B → A és C */ #p1_s2:checked ~ .instaframe .to1, #p1_s2:checked ~ .instaframe .to3 { display: flex; } /* C → B */ #p1_s3:checked ~ .instaframe .to2b { display: flex; } 
