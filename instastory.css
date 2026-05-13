@@ -7,7 +7,9 @@ border-radius:18px;
 font-family:Arial;
 }
 
-/* TOP */
+/* =========================
+TOP OVERLAY
+========================= */
 
 .storytop {
 position:absolute;
@@ -17,10 +19,17 @@ width:100%;
 z-index:10;
 padding:12px;
 box-sizing:border-box;
-background:linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0));
+
+background:linear-gradient(
+to bottom,
+rgba(0,0,0,0.55),
+rgba(0,0,0,0)
+);
 }
 
-/* BARS */
+/* =========================
+STORY BARS
+========================= */
 
 .storybars {
 display:flex;
@@ -37,18 +46,33 @@ overflow:hidden;
 position:relative;
 }
 
-.baractive {
-position:absolute;
-top:0;
-left:0;
+.fill {
 height:100%;
-width:100%;
 background:white;
-animation:loading 9s linear infinite;
-transform-origin:left;
+width:0%;
 }
 
-/* USER */
+/* BAR 1 */
+
+.fill1 {
+animation:fill1 9s linear infinite;
+}
+
+/* BAR 2 */
+
+.fill2 {
+animation:fill2 9s linear infinite;
+}
+
+/* BAR 3 */
+
+.fill3 {
+animation:fill3 9s linear infinite;
+}
+
+/* =========================
+USER INFO
+========================= */
 
 .storyinfo {
 display:flex;
@@ -94,7 +118,9 @@ display:flex;
 gap:10px;
 }
 
-/* MUSIC */
+/* =========================
+MUSIC
+========================= */
 
 .musicname {
 color:white;
@@ -102,7 +128,9 @@ font-size:12px;
 margin-top:8px;
 }
 
-/* SLIDER */
+/* =========================
+SLIDER
+========================= */
 
 .slider {
 width:250px;
@@ -113,7 +141,7 @@ overflow:hidden;
 .slides {
 display:flex;
 width:300%;
-animation:slide 9s infinite;
+animation:slide 9s linear infinite;
 }
 
 .slides img {
@@ -124,45 +152,89 @@ object-position:center;
 flex-shrink:0;
 }
 
-/* LOADING */
+/* =========================
+PROGRESS BAR ANIMATION
+========================= */
 
-@keyframes loading {
-
-0% {
-transform:scaleX(0);
-}
-
-100% {
-transform:scaleX(1);
-}
-
-}
-
-/* SLIDE */
-
-@keyframes slide {
+@keyframes fill1 {
 
 0% {
-transform:translateX(0);
+width:0%;
 }
 
 30% {
-transform:translateX(0);
+width:100%;
 }
 
-35% {
-transform:translateX(-250px);
-}
-
-65% {
-transform:translateX(-250px);
-}
-
-70% {
-transform:translateX(-500px);
+33% {
+width:100%;
 }
 
 100% {
+width:100%;
+}
+
+}
+
+/* BAR 2 */
+
+@keyframes fill2 {
+
+0% {
+width:0%;
+}
+
+33% {
+width:0%;
+}
+
+63% {
+width:100%;
+}
+
+66% {
+width:100%;
+}
+
+100% {
+width:100%;
+}
+
+}
+
+/* BAR 3 */
+
+@keyframes fill3 {
+
+0% {
+width:0%;
+}
+
+66% {
+width:0%;
+}
+
+100% {
+width:100%;
+}
+
+}
+
+/* =========================
+SLIDE ANIMATION
+========================= */
+
+@keyframes slide {
+
+0%,30% {
+transform:translateX(0);
+}
+
+33%,63% {
+transform:translateX(-250px);
+}
+
+66%,100% {
 transform:translateX(-500px);
 }
 
