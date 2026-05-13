@@ -89,19 +89,21 @@ align-items:center;
 }
 
 .storypfp {
-width:32px;
-height:32px;
+width:28px;
+height:28px;
 border-radius:100%;
 object-fit:cover;
-margin-right:8px;
+margin-right:5px;
 flex-shrink:0;
 display:block;  
+margin-left:-3px;
 }
 
 .storyname {
 color:white;
 font-size:13px;
 font-weight:700;
+margin-left:-4px;  
 }
 
 .storyverify {
@@ -113,7 +115,7 @@ margin-left:4px;
 .storytime {
 color:rgba(255,255,255,0.7);
 font-size:12px;
-margin-left:6px;
+margin-left:-4px;
 }
 
 .righticons {
