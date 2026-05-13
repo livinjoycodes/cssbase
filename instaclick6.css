@@ -1,0 +1,64 @@
+#h1_s1:checked ~ .instaframe6 .instatrack6{
+transform:translateX(0);
+}
+
+#h1_s2:checked ~ .instaframe6 .instatrack6{
+transform:translateX(-100%);
+}
+
+#h1_s3:checked ~ .instaframe6 .instatrack6{
+transform:translateX(-200%);
+}
+
+#h1_s4:checked ~ .instaframe6 .instatrack6{
+transform:translateX(-300%);
+}
+
+#h1_s5:checked ~ .instaframe6 .instatrack6{
+transform:translateX(-400%);
+}
+
+#h1_s6:checked ~ .instaframe6 .instatrack6{
+transform:translateX(-500%);
+}
+
+.hto1,
+.hto2,
+.hto2b,
+.hto3,
+.hto3b,
+.hto4,
+.hto4b,
+.hto5,
+.hto5b,
+.hto6{
+display:none;
+}
+
+#h1_s1:checked ~ .instaframe6 .hto2{
+display:flex;
+}
+
+#h1_s2:checked ~ .instaframe6 .hto2b,
+#h1_s2:checked ~ .instaframe6 .hto3{
+display:flex;
+}
+
+#h1_s3:checked ~ .instaframe6 .hto3b,
+#h1_s3:checked ~ .instaframe6 .hto4{
+display:flex;
+}
+
+#h1_s4:checked ~ .instaframe6 .hto4b,
+#h1_s4:checked ~ .instaframe6 .hto5{
+display:flex;
+}
+
+#h1_s5:checked ~ .instaframe6 .hto5b,
+#h1_s5:checked ~ .instaframe6 .hto6{
+display:flex;
+}
+
+#h1_s6:checked ~ .instaframe6 .hto5b{
+display:flex;
+}
