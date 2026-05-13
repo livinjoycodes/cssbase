@@ -1,11 +1,53 @@
 /*|__________ music 2__________*/
-.lastorytext{padding:10px;border: 1px solid grey; width:120px;font-size:12px; text-align:justify;border-radius:25px;margin-top:25px;} .lastorydbg{background: rgb(0 0 0 / .4);width: 241px;font-family: Arial; padding: 2px; height: 76px;    padding-bottom: 4px;margin-top:-25px;margin-left:1px;display:flex;justify-content:space-between;align-items:center;} .lainstaheartstory {height: 25px;width: 25px;margin-left: -3px;margin-top:24px;} .lainstachatstory {height: 25px;width: 25px;margin-top:24px;opacity:0.7;} .lainstasendstory {height: 20px;width: 20px;margin-top:24px;opacity:0.7;} .laistorybgm2{width:250px;height:400px;position:relative;overflow:hidden;border-radius:18px;font-family:Arial;}.laistoryline2{position:absolute;top:0;left:0;width:100%;z-index:10;padding:12px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(0,0,0,0.55),rgba(0,0,0,0))}.lastorybars{display:flex;gap:4px;margin-bottom:10px; margin-top:-24px;}.bar{flex:1;height:3px;background:rgba(255,255,255,0.3);border-radius:999px;overflow:hidden;position:relative}.fill{position:absolute;top:0;left:0;height:100%;background:white;width:0%}.fill1_2{animation:fill1_2 9s linear infinite}.fill2_2{animation:fill2_2 9s linear infinite}.fill3{animation:fill3 9s linear infinite}.storyinfo{display:flex;justify-content:space-between;align-items:center}.laistoryleftinfo{display:flex;align-items:center;margin-top:-33px;}.lastorympicm{width:28px;height:28px;border-radius:100%;object-fit:cover;margin-right:5px;flex-shrink:0;display:block;margin-left:-7px;}.lastorynamem{color:white;font-size:13px;font-weight:700;margin-left:-2px;margin-top:-15px;}.lastoryverm{width:14px;height:14px;margin-left:2px;margin-top:-15px}.lastorytimem{color:rgba(255,255,255,0.7);font-size:12px;margin-top:-15px;margin-left:2px;}.lastoryriconsm{color:white;font-size:18px;display:flex;gap:10px;margin-top:-30px;margin-left:20px;}.lastorymusicname{color:white;font-size:12px;margin-top:-48px; text-align:left; margin-left:25px;} .slider2{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1} .slides2{display:flex;width:200%;animation:slide2 9s linear infinite;}.slides2 img{opacity:0.8;width:245px;height:400px;object-fit:cover;object-position:center;flex-shrink:0}.fill1_2{animation:fill1_2 9s linear infinite}
-.fill2_2{animation:fill2_2 9s linear infinite}@keyframes fill1_2{0%{width:0%}50%{width:100%}55%{width:100%}100%{width:100%}}@keyframes fill2_2{ 0%{width:0%}50%{width:0%}100%{width:100%}}@keyframes slide2 { 0%,45%{transform:translateX(0)} 55%,100%{transform:translateX(-250px)}}
+.lastorytext{padding:10px;border: 1px solid grey; width:120px;font-size:12px; text-align:justify;border-radius:25px;margin-top:25px;} 
+.lastorydbg{background: rgb(0 0 0 / .4);width: 241px;font-family: Arial; padding: 2px; height: 76px;padding-bottom: 4px;margin-top:-25px;margin-left:1px;display:flex;justify-content:space-between;align-items:center;} 
+.lainstaheartstory {height: 25px;width: 25px;margin-left: -3px;margin-top:24px;} 
+.lainstachatstory {height: 25px;width: 25px;margin-top:24px;opacity:0.7;} 
+.lainstasendstory {height: 20px;width: 20px;margin-top:24px;opacity:0.7;} 
+.laistorybgm2{width:250px;height:400px;position:relative;overflow:hidden;border-radius:18px;font-family:Arial;}
+.laistoryline2{position:absolute;top:0;left:0;width:100%;z-index:10;padding:12px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(0,0,0,0.55),rgba(0,0,0,0));}
+.lastorybars{display:flex;gap:4px;margin-bottom:10px; margin-top:-24px;}
+.bar{flex:1;height:3px;background:rgba(255,255,255,0.3);border-radius:999px;overflow:hidden;position:relative;}
+.fill{position:absolute;top:0;left:0;height:100%;background:white;width:0%;}
+.fill1_2{animation:fill1_2 9s linear infinite;}
+.fill2_2{animation:fill2_2 9s linear infinite;}
+.storyinfo{display:flex;justify-content:space-between;align-items:center;}
+.laistoryleftinfo{display:flex;align-items:center;margin-top:-33px;}
+.lastorympicm{width:28px;height:28px;border-radius:100%;object-fit:cover;margin-right:5px;flex-shrink:0;display:block;margin-left:-7px;}
+.lastorynamem{color:white;font-size:13px;font-weight:700;margin-left:-2px;margin-top:-15px;}
+.lastoryverm{width:14px;height:14px;margin-left:2px;margin-top:-15px;}
+.lastorytimem{color:rgba(255,255,255,0.7);font-size:12px;margin-top:-15px;margin-left:2px;}
+.lastoryriconsm{color:white;font-size:18px;display:flex;gap:10px;margin-top:-30px;margin-left:20px;}
+.lastorymusicname{color:white;font-size:12px;margin-top:-48px; text-align:left; margin-left:25px;} 
+.slider2{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;} 
+.slides2{display:flex;width:200%;animation:slide2 9s linear infinite;}
+.slides2 img{opacity:0.8;width:245px;height:400px;object-fit:cover;object-position:center;flex-shrink:0}.fill1_2{animation:fill1_2 9s linear infinite;}
+.fill2_2{animation:fill2_2 9s linear infinite;}
+@keyframes fill1_2{0%{width:0%}50%{width:100%}55%{width:100%}100%{width:100%};}
+@keyframes fill2_2{ 0%{width:0%}50%{width:0%}100%{width:100%};}
+@keyframes slide2 { 0%,45%{transform:translateX(0)} 55%,100%{transform:translateX(-250px)};}
 /*|__________ music 3__________*/
-.laistorybgm3{width:250px;height:400px;position:relative;overflow:hidden;border-radius:18px;font-family:Arial}.laistoryline3{position:absolute;top:0;left:0;width:100%;z-index:10;padding:12px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(0,0,0,0.55),rgba(0,0,0,0))}.fill{position:absolute;top:0;left:0;height:100%;background:white;width:0%}.fill1_3{animation:fill1_3 9s linear infinite}.fill2_3{animation:fill2_3 9s linear infinite}.fill3_3{animation:fill3_3 9s linear infinite}.slider3{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1} .slides3{display:flex;width:300%;animation:slide3 9s linear infinite}.slides3 img{opacity:0.8;width:245px;height:400px;object-fit:cover;object-position:center;flex-shrink:0}@keyframes fill1_3{0%{width:0%}30%{width:100%}33%{width:100%}100%{width:100%}}@keyframes fill2_3{0%{width:0%}33%{width:0%}63%{width:100%}66%{width:100%}100%{width:100%}}@keyframes fill3_3{0%{width:0%}66%{width:0%}100%{width:100%}}@keyframes slide3{0%,30%{transform:translateX(0)}33%,63%{transform:translateX(-250px)}66%,100%{transform:translateX(-500px)}}
+.laistorybgm3{width:250px;height:400px;position:relative;overflow:hidden;border-radius:18px;font-family:Arial;}
+.laistoryline3{position:absolute;top:0;left:0;width:100%;z-index:10;padding:12px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(0,0,0,0.55),rgba(0,0,0,0));}
+.fill{position:absolute;top:0;left:0;height:100%;background:white;width:0%;}
+.fill1_3{animation:fill1_3 9s linear infinite;}
+.fill2_3{animation:fill2_3 9s linear infinite;}
+.fill3_3{animation:fill3_3 9s linear infinite;}
+.slider3{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;} 
+.slides3{display:flex;width:300%;animation:slide3 9s linear infinite;}
+.slides3 img{opacity:0.8;width:245px;height:400px;object-fit:cover;object-position:center;flex-shrink:0}
+@keyframes fill1_3{0%{width:0%}30%{width:100%}33%{width:100%}100%{width:100%}}
+@keyframes fill2_3{0%{width:0%}33%{width:0%}63%{width:100%}66%{width:100%}100%{width:100%}}
+@keyframes fill3_3{0%{width:0%}66%{width:0%}100%{width:100%}}
+@keyframes slide3{0%,30%{transform:translateX(0)}33%,63%{transform:translateX(-250px)}66%,100%{transform:translateX(-500px)}}
 /*|__________ Music 1__________*/
-.fill1_1{animation:fill1_1 9s linear infinite}.slider01{position: absolute;top: 0;left: 0;width: 100%; height: 100%; z-index: 1;} @keyframes fill1_1{0%{width:0%}30%{width:100%}33%{width:100%}100%{width:100%}} .slides01 img {    opacity: 0.8; width: 245px; height: 400px;object-fit: cover; object-position: center; flex-shrink: 0;margin-top:-20px;}
+.fill1_1{animation:fill1_1 9s linear infinite;}
+.slider01{position: absolute;top: 0;left: 0;width: 100%; height: 100%; z-index: 1;} 
+@keyframes fill1_1{0%{width:0%}30%{width:100%}33%{width:100%}100%{width:100%}} 
+.slides01 img {opacity: 0.8; width: 245px; height: 400px;object-fit: cover; object-position: center; flex-shrink: 0;margin-top:-20px;}
 
 /*|__________ Sima__________*/
-.lastoryname {color: white; font-size: 13px;font-weight: 700;margin-left: -2px;} .lastoryver {width: 14px; height: 14px; margin-left: 2px;} .lastorytime { color: rgba(255, 255, 255, 0.7); font-size: 12px;margin-left: 2px;} 
+.lastoryname {color: white; font-size: 13px;font-weight: 700;margin-left: -2px;} 
+.lastoryver {width: 14px; height: 14px; margin-left: 2px;}
+.lastorytime { color: rgba(255, 255, 255, 0.7); font-size: 12px;margin-left: 2px;} 
 
