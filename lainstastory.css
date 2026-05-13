@@ -6,13 +6,13 @@
 .lainstasendstory {height: 20px;width: 20px;margin-top:24px;opacity:0.7;} 
 .laistorybgm2{width:250px;height:400px;position:relative;overflow:hidden;border-radius:18px;font-family:Arial;}
 .laistoryline2{position:absolute;top:0;left:0;width:100%;z-index:10;padding:12px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(0,0,0,0.55),rgba(0,0,0,0));}
-.lastorybars{display:flex;gap:4px;margin-bottom:10px; margin-top:-24px;}
+.lastorybars{display:flex;gap:4px;margin-bottom:10px;}
 .bar{flex:1;height:3px;background:rgba(255,255,255,0.3);border-radius:999px;overflow:hidden;position:relative;}
 .fill{position:absolute;top:0;left:0;height:100%;background:white;width:0%;}
 .fill1_2{animation:fill1_2 9s linear infinite;}
 .fill2_2{animation:fill2_2 9s linear infinite;}
 .storyinfo{display:flex;justify-content:space-between;align-items:center;}
-.laistoryleftinfo{display:flex;align-items:center;margin-top:-33px;}
+.laistoryleftinfo{display:flex;align-items:center;margin-top:-13px;}
 .lastorympicm{width:28px;height:28px;border-radius:100%;object-fit:cover;margin-right:5px;flex-shrink:0;display:block;margin-left:-7px;}
 .lastorynamem{color:white;font-size:13px;font-weight:700;margin-left:-2px;margin-top:-15px;}
 .lastoryverm{width:14px;height:14px;margin-left:2px;margin-top:-15px;}
