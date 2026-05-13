@@ -94,6 +94,8 @@ height:32px;
 border-radius:100%;
 object-fit:cover;
 margin-right:8px;
+flex-shrink:0;
+display:block;  
 }
 
 .storyname {
