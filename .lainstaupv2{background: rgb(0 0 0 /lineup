@@ -22,12 +22,7 @@ position:relative;
 z-index:2;
 margin-top:2px;
 margin-left:-7px;}
-.lainstaup{background:rgb(0 0 0 /.4);
-width:431px;
-font-family:Arial;
-padding:2px;
-height:30px;
-padding-bottom:4px;}
+.lainstaupv2{background: rgb(0 0 0 / .4);width: 431px;font-family: Arial;padding: 2px;height: 55px;padding-bottom: 4px;}
 .lainstadown{background:rgb(0 0 0 /.4);
 width:430px;
 font-family:Arial;
