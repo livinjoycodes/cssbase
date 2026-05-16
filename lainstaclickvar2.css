@@ -1,0 +1,96 @@
+.instabg2{background:rgb(0 0 0 /.4);display:flex;justify-content:center;width:435px;font-family:Arial;}
+.state{display:none;}
+.instaframe{width:420px;height:auto;overflow:hidden;position:relative;box-shadow:white;}
+.instatrack2{width:200%;transition:0.45s ease;display:flex;}
+.instatrack2 img{width:406px;margin:5px 5px 0px 5px;border-radius:5px;object-fit:cover;border:2px solid #262626;box-shadow:0 0 0 1px rgba(255,255,255,0.03);}
+#b1_s1:checked ~ .instaframe .instatrack2{transform:translateX(0);}
+#b1_s2:checked ~ .instaframe .instatrack2{transform:translateX(-420px);}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;background:rgba(0,0,0,.5);color:white;border-radius:50%;display:none;align-items:center;justify-content:center;cursor:pointer;font-size:20px;}
+#b1_s1:checked ~ .instaframe .to2{display:flex;}
+#b1_s2:checked ~ .instaframe .to1{display:flex;}
+.left{left:10px;}
+.right{right:10px;}
+.lainstaprofpic{height:46px;
+width:46px;
+border-radius:100%;
+object-fit:cover;
+display:block;
+margin:10px;
+background:conic-gradient(#e1306c 0deg,#c13584 40deg,#e1306c 80deg,#f77737 140deg,#f9ce34 200deg,#f77737 300deg,#e1306c 360deg);
+padding:2px;
+position:relative;
+z-index:2;
+margin-top:2px;
+margin-left:-7px;}
+.lainstaup{background:rgb(0 0 0 /.4);
+width:431px;
+font-family:Arial;
+padding:2px;
+height:30px;
+padding-bottom:4px;}
+.lainstadown{background:rgb(0 0 0 /.4);
+width:430px;
+font-family:Arial;
+padding:2px;
+height:22px;
+position:relative;
+z-index:2;}
+.lainstadown2{margin-top:2px;}
+.lainstatext{
+background:rgb(0 0 0 /.4);
+width:415px;
+font-family:Arial;
+padding:10px;
+height:auto;
+margin-top:-19px;
+text-align:justify;}
+.lainstan{
+font-size:13px;
+text-transform:lowercase;
+color:white;
+weight:700;}
+.lainstan2{
+font-size:13px;
+text-transform:lowercase;
+color:white;
+weight:700;
+float:left;}
+.lainstaver{
+height:15px;
+width:15px;}
+.lainstaver2{
+height:15px;
+width:15px;
+float:left;
+padding-left:5px;
+padding-right:5px;}
+.lainstap{
+font-size:10px;
+color:white;}
+.lainstap2{
+font-size:10px;
+color:white;
+margin-left:120px;}
+.lainstadate{
+font-size:14px;
+color:white;
+opacity:.4;}
+.lainstasend{
+height:20px;
+width:20px;
+margin-left:4px;}
+.lainstasave{
+height:20px;
+width:20px;
+margin-left:198px;}
+.lainstaheart{
+height:25px;
+width:25px;
+margin-left:-3px;}
+.lainstar{
+font-size:14px;
+text-transform:uppercase;
+color:white;}
+.lainstachat{
+height:30px;
+width:30px;}
